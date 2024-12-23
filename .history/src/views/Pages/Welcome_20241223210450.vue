@@ -47,7 +47,7 @@
 
                 <p class="font-semibold">Driven Software Developer Specializing in Cloud and frontend Solutions, with a
                     Passion for Building Impactful, User-Centric Applications</p>
-<br>
+
             </div>
             <div class=" md:text-left">
                 <div class="mt-2 md:mr-48 whitespace-nowrap">
@@ -79,7 +79,7 @@
                 <ul class="flex flex-wrap justify-center gap-6 md:gap-10 text-lg md:text-3xl">
                     <!-- LinkedIn -->
                     <li class="bg-[#0E8388] rounded-[30px] flex justify-center items-center w-24 h-24 md:w-32 md:h-32">
-                        <a href="https://linkedin.com/in/wira-kusuma-06672a1b8" target="_blank">
+                        <a href="https://linkedin.com/in/wira-kusumawww.linkedin.com/in/wira-kusuma-06672a1b8" target="_blank">
                             <img class="object-contain w-12 h-12 md:w-16 md:h-16" src="/element/linkedIn.png"
                                 alt="LinkedIn">
                         </a>

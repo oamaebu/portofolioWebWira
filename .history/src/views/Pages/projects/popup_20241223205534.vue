@@ -87,7 +87,6 @@ export default {
   },
     closePopup() {
       this.$emit('close-popup');
-      this.page = 0
     },
     nextPage() {
       this.page += 1
@@ -100,22 +99,30 @@ export default {
     return {
       page: 0,
       description: {
-        vmb: "A project to develop a landing page website for a trucking company, VMB. The website provides essential information about the company, its achievements, and other relevant details. Additionally, an admin dashboard was created to manage orders and deliveries for clients, enabling seamless tracking and efficient operations. This project combines user-friendly design and functionality to support both customer engagement and internal processes."
-        ,
-        cru: "A project focused on creating a comprehensive landing page and informational website for the Central Research Unit (CRU) at Universitas Airlangga Hospital. The website serves as a hub for providing detailed information about the CRU division, its roles, and ongoing research initiatives. Additionally, it features a dedicated dashboard for hospital staff, allowing them to access various training modules designed to enhance their skills and knowledge. The platform also includes tools for staff to evaluate their learning progress through quizzes, ensuring continuous development and effective performance monitoring. This project aims to foster a culture of growth and knowledge sharing within the organization, supporting both professional development and the hospital's research goals."
-        ,
-        smk: `SMKN 1 Jetis Mojokerto requires a BKK (Bursa Kerja Khusus) website that will be integrated with the main domain. The website has two primary focuses: displaying information about internships and job openings. There are two subdomains for this website.
-          The first subdomain is dedicated to users, showcasing internship and job vacancy information.
-          The second subdomain is for admin purposes, allowing administrators to perform Create, Read, Update, and Delete (CRUD) operations on internship and job vacancy information, as well as manage other admin accounts. Access to these CRUD functions requires admin login for security purposes.`,
-        game: `This application is an interactive educational game specifically designed for children with Down syndrome, aimed at helping improve their cognitive abilities through fun and educational play. The application consists of three game schemes, each focusing on different important aspects such as memory, visual attention, coordination, and following instructions.
+      vmb: `
+        Sebuah projek membangun web landing page untuk sebuah perusahaan trucking VMB. Web ini menunjukkan informasi dasar mengenai perusahaan tersebut, pencapaiannya, dan lain-lain. Selain itu, juga dibangun dashboard untuk admin yang dapat digunakan untuk menginput pesanan dan pengantaran kepada klien.
+      `,
+      cru: `
+        Sebuah projek membangun web landing page dan informasi mengenai divisi CRU (Central Research Unit) di Rumah Sakit Universitas Airlangga. Selain itu, terdapat halaman dashboard untuk pegawai agar mereka dapat melakukan pelatihan melalui modul-modul pembelajaran yang disediakan di website, serta melakukan evaluasi pembelajaran melalui quiz.
+      `,
+      smk: `
+        SMKN 1 Jetis Mojokerto membutuhkan sebuah website BKK yang akan disambungkan ke domain utama. Website ini memiliki dua fokus utama, yaitu menampilkan informasi magang dan lowongan kerja. 
+        Terdapat dua subdomain untuk website ini: 
 
-        - Scheme 1: Children learn to recognize objects by comparing three similar but different images, where each image produces a sound when pressed, helping them link visual cues with audio.
-        - Scheme 2: This challenge presents a grid of images, where children are asked to select three images according to instructions, training visual discrimination and selective attention.
-        - Scheme 3: This scheme offers a puzzle game with semi-transparent images divided into a 2x2 grid, where children match puzzle pieces in the correct spots, enhancing visual-spatial perception and problem-solving skills. 
+        - Subdomain pertama untuk user, menampilkan informasi magang dan lowongan kerja.
+        - Subdomain kedua untuk admin, yang memungkinkan admin melakukan Create, Read, Update, dan Delete (CRUD) terhadap informasi magang, lowongan kerja, dan admin lainnya. Untuk akses CRUD, diperlukan login admin terlebih dahulu.
+      `,
+      game: `
+        Aplikasi ini adalah sebuah game edukasi interaktif yang dirancang khusus untuk anak-anak dengan Down syndrome, bertujuan membantu meningkatkan kemampuan kognitif mereka melalui permainan yang menyenangkan dan mendidik.Terdiri dari tiga skema permainan, aplikasi ini melatih berbagai aspek penting seperti memori, atensi visual, koordinasi, dan pemahaman instruksi.
 
-        In addition, the application includes a game management feature for teachers, allowing them to add new children to the system, track their progress, and adjust game levels based on each child’s needs. Teachers can select and configure the images used in each game scheme and adjust the difficulty level of the images to easy, medium, or hard categories. With this full control, teachers can create a customized and effective learning experience for each child’s cognitive development.`
+        - Skema 1: Anak belajar mengenali objek melalui tiga gambar serupa tetapi berbeda, di mana setiap gambar menghasilkan suara saat ditekan, membantu mereka menghubungkan visual dengan audio.
+        - Skema 2: Menghadirkan tantangan berupa grid gambar, di mana anak diminta memilih tiga gambar sesuai instruksi, melatih diskriminasi visual dan atensi selektif.
+        - Skema 3: Menawarkan permainan puzzle, dengan gambar semi transparan yang dibagi menjadi grid 2x2, di mana anak memasangkan potongan gambar pada tempat yang sesuai, meningkatkan persepsi visual-spasial dan keterampilan pemecahan masalah. 
+          
+          Selain itu, aplikasi ini dilengkapi dengan fitur manajemen permainan untuk guru, yang memungkinkan mereka menambahkan anak baru ke dalam sistem, melihat kemajuan anak, dan mengatur level permainan berdasarkan kebutuhan masing-masing anak. Guru dapat memilih dan mengatur gambar yang digunakan pada setiap skema permainan, serta menyesuaikan tingkat kesulitan gambar menjadi kategori mudah, sedang, atau sulit. Dengan kontrol penuh ini, guru dapat menciptakan pengalaman bermain yang sesuai dan efektif bagi perkembangan kognitif setiap anak.
+      `
 
-        , news: '"A straightforward news application developed using Flutter and Firebase, designed to provide users with an intuitive platform for accessing the latest news. The app allows users to view a comprehensive list of news articles, read detailed stories, and search for specific topics or articles using a search function. Additionally, the app includes a login feature, offering users personalized access to news content, ensuring a tailored experience. With a user-friendly interface and seamless integration with Firebase, this application aims to deliver an efficient and engaging way for users to stay updated with current events."'
+      ,news : ''
     },
     nl2br: (text) => text.replace(/\n/g, "<br>"),
       groupedProjects: {

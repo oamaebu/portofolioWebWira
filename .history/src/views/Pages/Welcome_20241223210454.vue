@@ -47,7 +47,7 @@
 
                 <p class="font-semibold">Driven Software Developer Specializing in Cloud and frontend Solutions, with a
                     Passion for Building Impactful, User-Centric Applications</p>
-<br>
+
             </div>
             <div class=" md:text-left">
                 <div class="mt-2 md:mr-48 whitespace-nowrap">

@@ -1,7 +1,7 @@
 <template>
     <div id="certification" class="min-h-screen pt-20">
             <p class="text-4xl md:text-6xl text-white underline font-bold text-center mb-10">Courses <span
-                    class="text-teal-500 font-bold underline">& Certification</span></p>
+                    class="text-teal-500 font-bold">& Certification</span></p>
             <div class=" mx-4 sm:mx-10 md:mx-20 lg:mx-36 mb-10 ">
                 <div class="flex flex-col md:flex-row items-center md:items-start">
                     <img src="/element/bangkit.png" alt=""

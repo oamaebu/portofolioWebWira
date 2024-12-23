@@ -1,7 +1,7 @@
 <template>
       <div class="sm:mx-20 min-h-screen pb-36" id="projects">
             <p class="text-4xl md:text-6xl text-white underline font-bold text-center pt-20">My <span
-                    class=" text-teal-500 underline font-bold"> Projects </span></p><br><br>
+                    class="underline text-teal-500 underline font-bold"> Projects </span></p><br><br>
             <div class="flex items-center justify-center">
                 <div class="flex w-full bg-gray-700 rounded-md">
                     <button

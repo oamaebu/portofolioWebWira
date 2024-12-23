@@ -87,7 +87,6 @@ export default {
   },
     closePopup() {
       this.$emit('close-popup');
-      this.page = 0
     },
     nextPage() {
       this.page += 1
@@ -100,14 +99,21 @@ export default {
     return {
       page: 0,
       description: {
-        vmb: "A project to develop a landing page website for a trucking company, VMB. The website provides essential information about the company, its achievements, and other relevant details. Additionally, an admin dashboard was created to manage orders and deliveries for clients, enabling seamless tracking and efficient operations. This project combines user-friendly design and functionality to support both customer engagement and internal processes."
-        ,
-        cru: "A project focused on creating a comprehensive landing page and informational website for the Central Research Unit (CRU) at Universitas Airlangga Hospital. The website serves as a hub for providing detailed information about the CRU division, its roles, and ongoing research initiatives. Additionally, it features a dedicated dashboard for hospital staff, allowing them to access various training modules designed to enhance their skills and knowledge. The platform also includes tools for staff to evaluate their learning progress through quizzes, ensuring continuous development and effective performance monitoring. This project aims to foster a culture of growth and knowledge sharing within the organization, supporting both professional development and the hospital's research goals."
-        ,
-        smk: `SMKN 1 Jetis Mojokerto requires a BKK (Bursa Kerja Khusus) website that will be integrated with the main domain. The website has two primary focuses: displaying information about internships and job openings. There are two subdomains for this website.
-          The first subdomain is dedicated to users, showcasing internship and job vacancy information.
-          The second subdomain is for admin purposes, allowing administrators to perform Create, Read, Update, and Delete (CRUD) operations on internship and job vacancy information, as well as manage other admin accounts. Access to these CRUD functions requires admin login for security purposes.`,
-        game: `This application is an interactive educational game specifically designed for children with Down syndrome, aimed at helping improve their cognitive abilities through fun and educational play. The application consists of three game schemes, each focusing on different important aspects such as memory, visual attention, coordination, and following instructions.
+      vmb: `
+        Sebuah projek membangun web landing page untuk sebuah perusahaan trucking VMB. Web ini menunjukkan informasi dasar mengenai perusahaan tersebut, pencapaiannya, dan lain-lain. Selain itu, juga dibangun dashboard untuk admin yang dapat digunakan untuk menginput pesanan dan pengantaran kepada klien.
+      `,
+      cru: `
+        Sebuah projek membangun web landing page dan informasi mengenai divisi CRU (Central Research Unit) di Rumah Sakit Universitas Airlangga. Selain itu, terdapat halaman dashboard untuk pegawai agar mereka dapat melakukan pelatihan melalui modul-modul pembelajaran yang disediakan di website, serta melakukan evaluasi pembelajaran melalui quiz.
+      `,
+      smk: `
+        SMKN 1 Jetis Mojokerto membutuhkan sebuah website BKK yang akan disambungkan ke domain utama. Website ini memiliki dua fokus utama, yaitu menampilkan informasi magang dan lowongan kerja. 
+        Terdapat dua subdomain untuk website ini: 
+
+        - Subdomain pertama untuk user, menampilkan informasi magang dan lowongan kerja.
+        - Subdomain kedua untuk admin, yang memungkinkan admin melakukan Create, Read, Update, dan Delete (CRUD) terhadap informasi magang, lowongan kerja, dan admin lainnya. Untuk akses CRUD, diperlukan login admin terlebih dahulu.
+      `,
+      game: `
+        Aplikasi ini adalah sebuah game edukasi interaktif yang dirancang khusus untuk anak-anak dengan Down syndrome, bertujuan membantu meningkatkan kemampuan kognitif mereka melalui permainan yang menyenangkan dan mendidik.Terdiri dari tiga skema permainan, aplikasi ini melatih berbagai aspek penting seperti memori, atensi visual, koordinasi, dan pemahaman instruksi.
 
         - Scheme 1: Children learn to recognize objects by comparing three similar but different images, where each image produces a sound when pressed, helping them link visual cues with audio.
         - Scheme 2: This challenge presents a grid of images, where children are asked to select three images according to instructions, training visual discrimination and selective attention.

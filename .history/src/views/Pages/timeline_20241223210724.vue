@@ -45,18 +45,17 @@
           {
             date: "March 2024 - June 2024",
             title: "PKL SMKN 1 Jetis Mojokerto",
-            description: "Developed a website using the Laravel framework with a main page showcasing job and internship listings for students. Designed and implemented an admin page to efficiently manage job and internship data, ensuring students have easy access to explore opportunities."
+            description: " Developing a website with a main page displaying job and internship listings using the Laravel framework, as well as creating an admin page to manage job and internship listing data input."
           },
           {
-            date: "January 2024 - April 2024",
+            date: "1 January 2024",
             title: "Airlangga Hospital",
-            description: "Designed the main web interface for the Central Research Unit (CRU) at Airlangga University Hospital using the Laravel and Bootstrap frameworks. And additionally design a learning dashboard to monitor employee training and development progress.."
+            description: "Designed the main web interface for the Central Research Unit (CRU) at Airlangga University Hospital using the Laravel and Bootstrap frameworks. Additionally, I developed a learning dashboard to monitor employee training and development progress.."
           },
           {
-            date: "January 2024 - September 2024",
+            date: "1 January 2024",
             title: "DSID Airlangga University ",
-            description: " Developed a curriculum submission web page forfaculty members at Universitas Airlangga usingthe Yii2 framework and Oracle SQL for the database. And ensuring a responsive and integrated platform to support efficient curriculum submission."
-
+            description: " Developed a curriculum submission web page forfaculty members at Universitas Airlangga usingthe Yii2 framework and Oracle SQL for the database."
           },
           
         ],

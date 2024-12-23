@@ -87,7 +87,6 @@ export default {
   },
     closePopup() {
       this.$emit('close-popup');
-      this.page = 0
     },
     nextPage() {
       this.page += 1
