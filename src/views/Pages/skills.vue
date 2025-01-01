@@ -55,7 +55,7 @@ export default{
 
                 },
                 {
-                    img: "php",
+                    img: "PHP",
 
                 },
 
