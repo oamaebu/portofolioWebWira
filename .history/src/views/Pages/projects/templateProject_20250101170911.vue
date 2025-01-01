@@ -77,12 +77,12 @@ export default {
             isActive: 'website',
             showPopup: false,
             projects: [
-                {
-                    name: "vmb",
-                    img: "vmb.png",
-                    title: "Landing Page VMB Main",
-                    description: "Developed a landing page website for a trucking company, VMB, showcasing company information and achievements. Additionally, created an admin dashboard to manage orders and deliveries, enabling seamless tracking and efficient operations, combining user-friendly design with robust functionality."
-                },
+            {
+    name: "vmb",
+    img: "vmb.png",
+    title: "Landing Page VMB Main",
+    description: "Developed a landing page website for a trucking company, VMB, showcasing company information and achievements. Additionally, created an admin dashboard to manage orders and deliveries, enabling seamless tracking and efficient operations, combining user-friendly design with robust functionality."
+},
 
                 {
                     name: "cru",

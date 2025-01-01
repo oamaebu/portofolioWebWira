@@ -1,7 +1,7 @@
 <template>
       <div class="sm:mx-20 min-h-screen pb-36" id="projects">
             <p class="text-4xl md:text-6xl text-white underline font-bold text-center pt-20">My <span
-                    class="underline text-teal-500 "> Projects </span></p><br><br>
+                     class=" text-teal-500 underline font-bold"> Projects </span></p><br><br>
             <div class="flex items-center justify-center">
                 <div class="flex w-full bg-gray-700 rounded-md">
                     <button
@@ -96,12 +96,13 @@ export default {
 
             ],
             mobile: [
-                {
-                    name: "game",
-                    img: "skripsi.png",
-                    title: "Custom Children Education Game",
-                    description: " Developing a website with a main page displaying job and internship listings using the Laravel framework, as well as creating an admin page to manage job and internship listing data input."
-                },
+            {
+    name: "game",
+    img: "skripsi.png",
+    title: "Custom Children Education Game",
+    description: "Developed an interactive educational game for children with Down syndrome to enhance cognitive abilities through fun and educational play. The game includes three schemes focusing on object recognition, visual discrimination, and puzzle-solving. Features also include teacher tools for progress tracking, level customization, and tailored game management."
+}
+
                 {
                     name: "news",
                     img: "report.png",

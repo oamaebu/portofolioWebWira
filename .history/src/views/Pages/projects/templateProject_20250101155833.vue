@@ -1,7 +1,7 @@
 <template>
       <div class="sm:mx-20 min-h-screen pb-36" id="projects">
             <p class="text-4xl md:text-6xl text-white underline font-bold text-center pt-20">My <span
-                    class="underline text-teal-500 "> Projects </span></p><br><br>
+                     class=" text-teal-500 underline font-bold"> Projects </span></p><br><br>
             <div class="flex items-center justify-center">
                 <div class="flex w-full bg-gray-700 rounded-md">
                     <button
@@ -87,12 +87,11 @@ export default {
                     description: "Designed the main web interface for the Central Research Unit (CRU) at Airlangga University Hospital using the Laravel and Bootstrap frameworks. Additionally, I developed a learning dashboard to monitor employee training and development progress.."
                 },
                 {
-    name: "smk",
-    img: "pkl.png",
-    title: "Dashboard SMKN 1 Jetis Mojokerto",
-    description: "Developed a BKK website for SMKN 1 Jetis Mojokerto, including user and admin subdomains. The user subdomain showcases internship and job vacancy information, while the admin subdomain enables secure CRUD operations and admin account management."
-}
-,
+                    name: "smk",
+                    img: "pkl.png",
+                    title: "Dashboard SMKN 1 Jetis Mojokerto ",
+                    description: " Developed a curriculum submission web page forfaculty members at Universitas Airlangga usingthe Yii2 framework and Oracle SQL for the database."
+                },
 
             ],
             mobile: [

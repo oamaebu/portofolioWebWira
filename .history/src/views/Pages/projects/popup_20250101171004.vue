@@ -57,7 +57,7 @@
             {{ title }}
           </h2>
 
-          <div class="flex-1 overflow-y-auto text-sm md:text-base text-white text-justify pr-2 md:max-h-full max-h-48">
+          <div class="flex-1 overflow-y-auto text-sm md:text-base text-white text-justify pr-2 max-h-">
   <p v-html="getFormattedDescription(selectedName)"></p>
 </div>
 
@@ -105,8 +105,8 @@ export default {
         cru: "A project focused on creating a comprehensive landing page and informational website for the Central Research Unit (CRU) at Universitas Airlangga Hospital. The website serves as a hub for providing detailed information about the CRU division, its roles, and ongoing research initiatives. Additionally, it features a dedicated dashboard for hospital staff, allowing them to access various training modules designed to enhance their skills and knowledge. The platform also includes tools for staff to evaluate their learning progress through quizzes, ensuring continuous development and effective performance monitoring. This project aims to foster a culture of growth and knowledge sharing within the organization, supporting both professional development and the hospital's research goals."
         ,
         smk: `SMKN 1 Jetis Mojokerto requires a BKK (Bursa Kerja Khusus) website that will be integrated with the main domain. The website has two primary focuses: displaying information about internships and job openings. There are two subdomains for this website.
-          - The first subdomain is dedicated to users, showcasing internship and job vacancy information.
-          - The second subdomain is for admin purposes, allowing administrators to perform Create, Read, Update, and Delete (CRUD) operations on internship and job vacancy information, as well as manage other admin accounts. Access to these CRUD functions requires admin login for security purposes.`,
+          The first subdomain is dedicated to users, showcasing internship and job vacancy information.
+          The second subdomain is for admin purposes, allowing administrators to perform Create, Read, Update, and Delete (CRUD) operations on internship and job vacancy information, as well as manage other admin accounts. Access to these CRUD functions requires admin login for security purposes.`,
         game: `This application is an interactive educational game specifically designed for children with Down syndrome, aimed at helping improve their cognitive abilities through fun and educational play. The application consists of three game schemes, each focusing on different important aspects such as memory, visual attention, coordination, and following instructions.
 
         - Scheme 1: Children learn to recognize objects by comparing three similar but different images, where each image produces a sound when pressed, helping them link visual cues with audio.

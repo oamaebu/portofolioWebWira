@@ -81,9 +81,8 @@ export default {
                     name: "vmb",
                     img: "vmb.png",
                     title: "Landing Page VMB Main",
-                    description: "Developed a landing page website for a trucking company, VMB, showcasing company information and achievements. Additionally, created an admin dashboard to manage orders and deliveries, enabling seamless tracking and efficient operations, combining user-friendly design with robust functionality."
+                    description: " Developing a website with a main page displaying job and internship listings using the Laravel framework, as well as creating an admin page to manage job and internship listing data input."
                 },
-
                 {
                     name: "cru",
                     img: "cru.png",
@@ -111,7 +110,7 @@ export default {
                     name: "news",
                     img: "report.png",
                     title: "News App",
-                    description: "Developed a Flutter and Firebase-based news application offering users an intuitive platform to access the latest news. Features include viewing news articles, searching for topics, reading detailed stories, and a login system for personalized experiences. "
+                    description: "Developed a Flutter and Firebase-based news application offering users an intuitive platform to access the latest news. Features include viewing news articles, searching for topics, reading detailed stories, and a login system for personalized experiences. The app delivers a seamless and engaging way to stay informed."
                 }
 
 

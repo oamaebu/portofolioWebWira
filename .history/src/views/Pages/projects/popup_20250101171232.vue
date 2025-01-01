@@ -57,7 +57,7 @@
             {{ title }}
           </h2>
 
-          <div class="flex-1 overflow-y-auto text-sm md:text-base text-white text-justify pr-2 md:max-h-full max-h-48">
+          <div class="flex-1 overflow-y-auto text-sm md:text-base text-white text-justify pr-2 md:max-h-full sm:max-h-48">
   <p v-html="getFormattedDescription(selectedName)"></p>
 </div>
 
