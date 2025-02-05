@@ -104,7 +104,7 @@ export default {
                     name: "inav",
                     img: "landing.png",
                     title: "Inav Counselling Service Landing Page",
-                    description: "Developing a landing page for a counselling service startup where client can order a counselling service from the website and build an admin page where the admin can update the info about upcoming event, service, testimony etc",
+                    description: "Developing a landing page for a counselling service startup where client can order",
                       status:"In Progress"
                 }
                 

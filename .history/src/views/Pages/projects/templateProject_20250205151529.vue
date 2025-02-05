@@ -33,7 +33,7 @@
                         {{ project.description }}
                     </p>
                     
-                    <p class="text-justify text-green-400 text-base sm:text-lg md:text-sm mt-4">
+                    <p class="text-justify text-gray-300 text-base sm:text-lg md:text-sm mt-4 text-end ">
                         {{ project.status }}
                     </p>
                 </div>
@@ -104,7 +104,7 @@ export default {
                     name: "inav",
                     img: "landing.png",
                     title: "Inav Counselling Service Landing Page",
-                    description: "Developing a landing page for a counselling service startup where client can order a counselling service from the website and build an admin page where the admin can update the info about upcoming event, service, testimony etc",
+                    description: "Developed a BKK website for SMKN 1 Jetis Mojokerto, including user and admin subdomains. The user subdomain showcases internship and job vacancy information, while the admin subdomain enables secure CRUD operations and admin account management.",
                       status:"In Progress"
                 }
                 

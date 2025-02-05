@@ -46,7 +46,9 @@
                     <div>
                         <p class="text-3xl sm:text-4xl md:text-xl">Javascript Algorithm and Data Structures</p>
                         <p class="text-justify text-gray-300 text-base sm:text-lg md:text-sm mt-4">
-                           in this JavaScript Algorithm and Data Structures Certification, I'm learning the fundamentals—variables, arrays, objects, loops, functions, the DOM, and more. I'm also diving into Object-Oriented Programming (OOP), Functional Programming, algorithmic thinking, working with local storage, and fetching data using APIs</p>
+                           in this JavaScript Algorithm and Data Structures Certification, I'm learning the fundamentals—variables, arrays, objects, loops, functions, the DOM, and more.
+
+I'm also diving into Object-Oriented Programming (OOP), Functional Programming, algorithmic thinking, working with local storage, and fetching data using APIs</p>
                     </div>
 
                 </div>

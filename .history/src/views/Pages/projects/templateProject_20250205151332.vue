@@ -33,9 +33,7 @@
                         {{ project.description }}
                     </p>
                     
-                    <p class="text-justify text-green-400 text-base sm:text-lg md:text-sm mt-4">
-                        {{ project.status }}
-                    </p>
+                    
                 </div>
 
             </button>
@@ -104,8 +102,7 @@ export default {
                     name: "inav",
                     img: "landing.png",
                     title: "Inav Counselling Service Landing Page",
-                    description: "Developing a landing page for a counselling service startup where client can order a counselling service from the website and build an admin page where the admin can update the info about upcoming event, service, testimony etc",
-                      status:"In Progress"
+                    description: "Developed a BKK website for SMKN 1 Jetis Mojokerto, including user and admin subdomains. The user subdomain showcases internship and job vacancy information, while the admin subdomain enables secure CRUD operations and admin account management."
                 }
                 
                 ,
@@ -124,7 +121,7 @@ export default {
                     img: "report.png",
                     title: "News App",
                     description: "Developed a Flutter and Firebase-based news application offering users an intuitive platform to access the latest news. Features include viewing news articles, searching for topics, reading detailed stories, and a login system for personalized experiences. ",
-                  
+                    status:"In Progress"
                 }
 
 

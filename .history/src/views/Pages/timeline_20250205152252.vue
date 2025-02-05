@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full my-24">
+  <div class="min-h-full my">
     <p class="text-4xl md:text-6xl text-white underline font-bold text-center  pt-20" id="experiences">
       Experiences</p><br><br>
   <div class="px-4 md:pl-28 md:pr-40 ">
